@@ -1,0 +1,136 @@
+
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    /*configure background*/
+    background-color: #370071;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    /*text properties*/
+    color: #ffffff;
+    line-height: 400x;
+    text-indent: 1em;
+}
+
+h1 {
+margin-bottom: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    background-color: #bbdefb;
+    font-weight: bold;
+}
+
+nav a {
+ text-decoration: none;   
+}
+
+h2 {
+   color:#1976d2;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .recipe-image {
+        text-align: justify;
+        margin-bottom: 30px;
+      }
+      
+      .recipe-image img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .recipe-details h2 {
+        margin-top: 30px;
+      }
+      
+      .recipe-details ul,
+      .recipe-details ol {
+        margin: 0;
+        padding: 0 0 0 20px;
+      }
+      
+      .recipe-details li {
+        margin-bottom: 10px;
+      }
+      
+      .recipe-details ol li {
+        counter-increment: step-counter;
+        margin-bottom: 20px;
+      }
+      
+      .recipe-details ol li:before {
+        content: counter(step-counter) ".";
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+        h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000033;
+
+    }
+    dt {
+        color: #002171;
+    }
+    footer {
+        background-color: #354faf;
+        color: #fff;
+        padding: 30px;
+    }
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .contact-info h3,
+      .social-media h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+      }
+      
+      .contact-info p {
+        margin: 0;
+      }
+      
+      .social-media ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .social-media li {
+        margin-right: 10px;
+      }
+      
+      .social-media a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: #fff;
+        color: #333;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+      }
+      
+      .social-media a:hover {
+        background-color: #555;
+        color: #fff;
+      }
+      
+      .footer-bottom {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 14px;
+      }
+    
